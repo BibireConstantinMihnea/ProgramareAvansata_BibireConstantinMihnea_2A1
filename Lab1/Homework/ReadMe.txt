@@ -6,3 +6,5 @@ de la 1 la k.
 
 -Pentru afisarea timpului de executie in milisecunde am folosit System.currentTimeMillis() la inceputul si la sfarsitul executiei programului, apoi am facut diferenta pentru a 
 afla timpul exact de rulare.
+
+-Metodele createRowString() si createColumnString() creaza obiecte de tipul String pentru fiecare linie respectiv coloana.
