@@ -9,7 +9,7 @@ package lab2;
  * @author Mihnea
  */
 
-// Clasa dedicata pentru obiectele Airport
+/** Clasa dedicata pentru obiectele Airport*/
 public class Airport extends Location {
     private int numberOfTerminals;
 

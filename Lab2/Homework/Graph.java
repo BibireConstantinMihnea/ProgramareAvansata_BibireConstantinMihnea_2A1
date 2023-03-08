@@ -8,9 +8,9 @@ import java.util.*;
  *
  * @author Mihnea
  */
-//Clasa pentru graful problemei
+/**Clasa pentru graful problemei*/
 public class Graph {
-    private LinkedList<Integer> adjLists[];
+    private LinkedList<Integer> adjLists[];//reprezentarea grafului este facuta prin liste de adiacenta
     private boolean visited[];
  
     // Constructor
@@ -42,9 +42,9 @@ public class Graph {
     }
   }
   //Metoda pentru determinarea posibilitatii calatoriei intre doua locatii
-  public String travelFromTo(int a, int b){
-      DFS(a);
-      if(visited[b]) return "Putem ajunge din locatia A in locatia B.";
+  public String travelFromTo(int locA, int locB){
+      DFS(locA);
+      if(visited[locB]) return "Putem ajunge din locatia A in locatia B.";
       else return "Nu putem ajunge din locatia A in locatia B.";
   }
 }

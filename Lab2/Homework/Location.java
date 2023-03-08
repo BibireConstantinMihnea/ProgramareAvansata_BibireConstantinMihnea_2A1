@@ -8,7 +8,7 @@ package lab2;
  *
  * @author Mihnea
  */
-//Clasa pentru obiectele Location
+/**Clasa pentru obiectele Location */
 public abstract class Location {
     protected String name;
     protected double X;

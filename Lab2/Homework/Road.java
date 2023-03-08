@@ -8,7 +8,7 @@ package lab2;
  *
  * @author Mihnea
  */
-//Clasa pentru obiectele Road
+/**Clasa pentru obiectele Road*/
 public class Road {
     protected String name;
     private double length;

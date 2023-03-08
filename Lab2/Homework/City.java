@@ -9,7 +9,7 @@ package lab2;
  * @author Mihnea
  */
 
-// Clasa dedicata pentru obiectele City
+/** Clasa dedicata pentru obiectele City*/
 public class City extends Location {
     private int population;
 

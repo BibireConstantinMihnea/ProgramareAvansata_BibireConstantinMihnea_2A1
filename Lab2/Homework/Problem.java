@@ -8,6 +8,7 @@ package lab2;
  *
  * @author Mihnea
  */
+/**Clasa pentru instanta unei probleme*/
 public class Problem {
     public Location[] locations;
     public Road[] roads = new Road[2];
