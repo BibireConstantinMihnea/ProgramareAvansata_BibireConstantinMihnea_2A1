@@ -4,3 +4,4 @@
 pentru a verifica cerinta.(Metoda travelFromTo() din clasa Graph)
 
 -Reprezentarea grafului este realizata prin liste de adiacenta, mai exact un vector de liste inlantuite.
+-Pozitia locatiilor in vectorul de liste inlantuite este aceeasi cu pozitia lor in vectorul sites[].
